@@ -1,0 +1,535 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+/* * {
+    box-sizing: border-box;
+}
+ */
+table {
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+}
+
+input {
+    width: 90%;
+    border-radius: 40px;
+    height: 50px;
+    border-color: green;
+}
+
+.title {
+    padding-top: 20px;
+}
+
+.govt-logo {
+    height: 90px;
+    padding-top: 10px;
+}
+
+.mbnn-image {
+    margin-top: 0px;
+    padding: 10px;
+
+}
+
+@media all and (max-width:576px) {
+    .mbnn-logo {
+        width: 100%;
+    }
+}
+
+.cm-logo {
+    border-radius: 90px;
+    border: #4c599f solid 1px;
+    margin-top: 10px;
+}
+
+.cm-info {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.cm-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: blue;
+}
+
+.cm-designation {
+    font-size: 16px;
+    font-weight: bold;
+    color: green;
+}
+
+.cm-state {
+    font-size: 16px;
+    font-weight: bold;
+    color: green;
+}
+
+.bottom-container {
+    background-image: linear-gradient(to bottom, green, blue);
+    height: 100%;
+    background-size: cover;
+
+}
+
+.login-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.blue-container {
+    background-color: skyblue;
+    padding: 12px;
+    color: #fff;
+    font-size: 21px;
+    text-align: center;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-family: "Roboto";
+}
+
+.orange-container {
+    background-color: orange;
+    padding: 26px;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-family: "Roboto";
+}
+
+.para-text-size {
+    font-size: 21px;
+}
+
+.voilet-container {
+    background-color: #7f06b8;
+    padding: 26px;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    font-family: "Roboto";
+}
+
+.btn1 {
+    text-align: right;
+    align-items: flex-end;
+}
+
+.paragraph-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    font-family: "Bree serif";
+}
+
+.carousal-image {
+    height: 50vh;
+    background-size: cover;
+}
+
+.carousal-item {
+    display: flex;
+    flex-direction: row;
+}
+
+.viewlessclass {
+    display: none;
+    text-align: right;
+}
+
+.horiz-line {
+    border-width: 1px;
+    border-color: black;
+    display: none;
+}
+
+.orange-below {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-orange {
+    border-right: solid #fff 2px;
+}
+
+.testing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.horiz {
+    border-color: white;
+    border-width: 1px;
+}
+
+.line {
+    width: 20%;
+    transform: rotate(90deg);
+    border-color: white;
+    border-width: 1px;
+}
+
+.search-school-container {
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.dist-mandal-container {
+    background-color: #f7f4eb;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding-bottom: 10px;
+    border: solid #000000 1px;
+}
+
+@media all and (min-width:992px) {
+    .dist-mandal-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+.orange-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f73f07;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-family: "Roboto";
+}
+
+.green-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: green;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-family: "Roboto";
+}
+
+.blue-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-family: "Roboto";
+}
+
+.violet-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #692b18;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-family: "Roboto";
+}
+
+@media all and (min-width:992px) {
+    .three-card-container {
+        display: flex;
+    }
+}
+
+.like-logo {
+    width: 80px;
+    height: 100px;
+    border: solid #fff 2px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.table-info {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    margin: 0px;
+}
+
+.map-of-ap {
+    width: 500px;
+}
+
+@media all and (max-width:576px) {
+    .map-of-ap {
+        width: 100%;
+    }
+}
+
+.performance-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+@media all and (min-width:768px) {
+    .performance-card {
+        display: flex;
+        width: 100%;
+    }
+}
+
+.select-class {
+    height: 50px;
+    border-radius: 30px;
+    color: blue;
+    padding-left: 15px;
+    padding-right: 5px;
+}
+
+@media all and (min-width:992px) {
+    .select-class {
+        height: 50px;
+        border-radius: 30px;
+        color: blue;
+        padding-left: 15px;
+        padding-right: 5px;
+        width: 200px
+    }
+}
+
+.go-button {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+@media all and (min-width:992px) {
+    .go-button {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        width: 100px;
+        height: 50px;
+        padding-bottom: 0px;
+    }
+}
+
+
+.search-input {
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 30px;
+}
+
+.explore-schools-heading {
+    margin-left: 30px;
+}
+
+.t1 {
+    background-color: #d6b392;
+    height: 50px;
+    text-align: center;
+    color: black;
+}
+
+.t2 {
+    background-color: #4d9be3;
+    height: 50px;
+    text-align: center;
+    color: black;
+}
+
+.t3 {
+    background-color: #debc4e;
+    height: 50px;
+    text-align: center;
+    color: black;
+}
+
+.t4 {
+    background-color: #ccadbd;
+    height: 50px;
+    text-align: center;
+    color: black;
+}
+
+.table-headings {
+    color: blue;
+}
+
+.carou {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 30px;
+    flex-wrap: wrap;
+}
+
+@media all and (min-width:992px) {
+    .car-img {
+        height: 490px;
+        width: 490px;
+    }
+}
+
+.last-img {
+    margin-bottom: 20px;
+}
+
+.schools-para-text {
+    font-size: 22px;
+}
+
+.implementing {
+    color: blue;
+}
+
+@media all and (min-width:992px) {
+    .two-cards {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .orange-card {
+        width: 50%;
+    }
+
+    .green-card {
+        width: 50%;
+    }
+
+    .blue-card {
+        width: 50%;
+    }
+
+    .violet-card {
+        width: 50%;
+    }
+}
+
+@media all and (min-width:768px) {
+    .first {
+        display: flex;
+        width: 10%;
+        text-align: start;
+    }
+
+    .second {
+        display: flex;
+        width: 30%;
+    }
+
+    .mbnn-image {
+        display: flex;
+        width: 30%;
+    }
+}
+
+@media all and (min-width:768px) {
+    .zeroth {
+        display: flex;
+        width: 50%;
+    }
+}
+
+.login-form {
+    display: none;
+    background-color: blue;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: solid #fff 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+@media all and (min-width:768px) {
+    .login-form {
+        display: none;
+        background-color: blue;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        border: solid #fff 5px;
+        margin-right: 230px;
+        margin-left: 230px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+@media all and (min-width:992px) {
+    .login-form {
+        display: none;
+        background-color: blue;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        border: solid #fff 5px;
+        margin-right: 350px;
+        margin-left: 350px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+    }
+}
+
+.container-hidden {
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.signin-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.user-name {
+    color: #fff;
+    font-size: 20px;
+}
+
+@media all and (min-width:768px) {
+    .style {
+        width: 100%;
+    }
+}
+
+.forgot {
+    color: #fff;
+}
